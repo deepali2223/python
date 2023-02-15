@@ -1,0 +1,5 @@
+n = input("enter a sentence")
+length = len(n)
+print("the first character of sentence is",n[0])
+print("the last character of sentence is",n[length -1])
+print("the reverse of the sentence is",n[-1:0:-1])
