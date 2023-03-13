@@ -1,0 +1,10 @@
+x= ["apple","banana","dog","cat","cat"]
+print(x)
+print(x[2])
+x.remove(x[3])
+print(x)
+print(x[3])
+x.remove("dog")
+print(x)
+x.reverse()
+print(x)
